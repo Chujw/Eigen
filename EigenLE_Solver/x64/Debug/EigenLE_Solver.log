@@ -1,0 +1,19 @@
+﻿Build started 11/21/2013 10:14:50 PM.
+     1>Project "C:\Chujia\Test and Fun\Eigen\EigenLE_Solver\EigenLE_Solver\EigenLE_Solver.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "x64\Debug\EigenLE_Solver.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt Eigen.cpp
+     1>cl : Command line warning D9002: ignoring unknown option '/arch:SSE2'
+         Eigen.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Chujia\Test and Fun\Eigen\EigenLE_Solver\x64\Debug\EigenLE_Solver.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Chujia\Test and Fun\Eigen\EigenLE_Solver\x64\Debug\EigenLE_Solver.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Chujia\Test and Fun\Eigen\EigenLE_Solver\x64\Debug\EigenLE_Solver.lib" /MACHINE:X64 x64\Debug\Eigen.obj
+         EigenLE_Solver.vcxproj -> C:\Chujia\Test and Fun\Eigen\EigenLE_Solver\x64\Debug\EigenLE_Solver.exe
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\EigenLE_Solver.unsuccessfulbuild".
+         Touching "x64\Debug\EigenLE_Solver.lastbuildstate".
+     1>Done Building Project "C:\Chujia\Test and Fun\Eigen\EigenLE_Solver\EigenLE_Solver\EigenLE_Solver.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.71
